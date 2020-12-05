@@ -8,12 +8,15 @@ body {
     padding-top: 56px;
     background-color: #b5dead;
     color: #442220;
+    font-family: 'Cabin' sans-serif;
 }
 
 .bg-sienna {
     background-color: #442220;
 }
 
+nav,
+footer,
 h1 {
     font-family: "Pacifico", sans-serif;
 }
@@ -24,5 +27,26 @@ a {
 
 a:hover {
     color: #809848;
-    overflow: hidden;
+}
+
+.inscription,
+.buy {
+    color: #809848;
+}
+
+.inscription,
+.buy:hover {
+    background-color: #809848;
+    color: #442220;
+}
+
+
+/* css footer */
+
+footer {
+    font-size: 1.5rem
+}
+
+.labels {
+    color: #809848;
 }
