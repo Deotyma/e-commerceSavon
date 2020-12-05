@@ -1,0 +1,71 @@
+header {
+    background-image: url(./../img/savonentete4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #809848;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.equipe h1 {
+    font-size: 4rem;
+}
+
+.equipe p {
+    font-size: 2rem;
+}
+
+.team {
+    position: relative;
+    margin-bottom: 32px;
+    padding-bottom: 64px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.team figure {
+    position: relative;
+    height: 325px;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: 5px;
+    background-size: cover;
+    transition: bottom 300ms ease-in-out;
+}
+
+.team figure::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 10px 10px;
+    margin-bottom: 64px;
+    background-color: #b5dead;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 300ms ease-in-out, margin-bottom 300ms ease-in-out;
+}
+
+.team:hover .description {
+    margin-bottom: 0;
+    transform: translateY(0%);
+}
+
+.social a {
+    font-size: 2rem;
+}
+
+.social a:hover {
+    color: #442220;
+}
