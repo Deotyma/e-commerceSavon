@@ -12,8 +12,8 @@ function printProductsList() {
                     <a data-id="${products[i].id}" class="productElt soap" href="#">${products[i].name}</a>
                 </h4>
                 <h5>${products[i].price}€</h5>
-                <p>Lorem ipsum dolor...</p>
-                <button class="btn btn-dark bg-sienna buy">Acheter</button>
+                <p>${products[i].description.substr(0,21)}...</p>
+                <button class="btn btn-dark bg-sienna buy"><i class="fas fa-cart-arrow-down"></i>Ajouter au panier</button>
             </div>
         </div>
     </div>`;

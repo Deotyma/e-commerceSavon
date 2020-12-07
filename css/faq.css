@@ -34,6 +34,7 @@ header {
     font-family: "Pacifico", sans-serif;
     font-size: 1.5rem;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .listOfQ .box .question::before {
@@ -59,9 +60,10 @@ header {
     transition: 0.5s;
     overflow-y: auto;
     font-size: 1rem;
+    border-radius: 5px;
 }
 
 .listOfQ .active .answer {
-    height: 100px;
+    min-height: 100px;
     padding: 1rem;
 }

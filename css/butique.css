@@ -1,3 +1,4 @@
 .card:hover {
     box-shadow: 5px 10px 8px#442220;
+    transform: scale(1.05);
 }

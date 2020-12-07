@@ -9,6 +9,7 @@ body {
     background-color: #b5dead;
     color: #442220;
     font-family: 'Cabin' sans-serif;
+    transition: all 0.5s;
 }
 
 .bg-sienna {
@@ -17,8 +18,14 @@ body {
 
 nav,
 footer,
-h1 {
+h1,
+h2 {
     font-family: "Pacifico", sans-serif;
+}
+
+.fas,
+nav .far {
+    margin-right: 4px;
 }
 
 a {
