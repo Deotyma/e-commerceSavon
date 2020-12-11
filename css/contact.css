@@ -21,3 +21,31 @@ header {
 .equipe p {
     font-size: 2rem;
 }
+
+label {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 1.5rem;
+}
+
+p.error {
+    color: red;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 1rem;
+    display: none;
+}
+
+div.control {
+    padding: 12px;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.success {
+    background: green;
+    color: #fff;
+}
+
+.danger {
+    background: red;
+    color: #fff;
+}

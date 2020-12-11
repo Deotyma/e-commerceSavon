@@ -90,25 +90,31 @@
                 </div>
                 <!-- end contactInfo -->
                 <div class="folmulaire col-12 col-md-6">
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Votre prénom</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Prénom">
-                    </div>
+                    <div class="control"></div>
+                    <form action="post">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Votre prénom</label>
+                            <input type="text" class="form-control prenom" id="exampleFormControlInput1" placeholder="Prénom">
+                            <p class="error"></p>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Votre nom</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Nom">
-                    </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Votre nom</label>
+                            <input type="text" class="form-control nom" id="exampleFormControlInput2" placeholder="Nom">
+                            <p class="error"></p>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Votre email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Votre email</label>
+                            <input type="email" class="form-control email" id="exampleFormControlInput1" placeholder="email...">
+                            <p class="error"></p>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Votre mesage</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Votre message</label>
+                            <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <p class="error"></p>
+                        </div>
                     </form>
 
                     <button type="submit" class="btn btn-outline-light col-3 inscription buy">envoyer</button>
@@ -142,7 +148,8 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- products list -->
+    <!-- form JQuery -->
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
