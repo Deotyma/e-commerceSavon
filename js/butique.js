@@ -19,6 +19,18 @@ function printProductsList() {
     </div>`;
 
     }
+    /* Ecouteur d'évenement sélection produit */
+    var productsElt = document.querySelectorAll('.productElt');
+    for (var i = 0; i < productsElt.length; i++) {
+        productsElt[i].addEventListener('click', showDetail)
+    }
 }
+
+/* affiche le détail produit */
+function showDetail(event) {
+    event.preventDefault();
+    window.location.href = 'detail.html?id=' + this.dataset.id;
+}
+
 
 printProductsList();
