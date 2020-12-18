@@ -11,7 +11,7 @@ function printProductsList() {
                 <h4 class="card-title">
                     <a data-id="${products[i].id}" class="productElt soap" href="#">${products[i].name}</a>
                 </h4>
-                <h5>${products[i].price}€</h5>
+                <h5>${products[i].price.toFixed(2)}€</h5>
                 <p>${products[i].description.substr(0,21)}...</p>
                 <button class="btn btn-dark bg-sienna buy"><i class="fas fa-cart-arrow-down"></i>Ajouter au panier</button>
             </div>
